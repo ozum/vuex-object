@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "commonJS",
+    "outDir": "lib",
+    "sourceMap": true,
+    "declaration": true,
+    "target": "ES6",
+    "esModuleInterop": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src/**/*", "test/**/*"],
+  "exclude": ["node_modules", "lib", "**/*.spec.ts", "**/*.test.ts", "**/__test-supplements__"]
+}
